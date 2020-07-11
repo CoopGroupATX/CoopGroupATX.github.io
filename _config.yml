@@ -34,11 +34,11 @@ authors:
     github: CooperSma
     email: cooper.smallwood0@gmail.com
     description: Hi my name is Cooper. Ever since I was three, I loved coding and robotics. One day, I had an idea to create a robotics club and this is the result.
-  
+
   - name: Reese Armstrong
     avatar: 'assets/images/reese.jpg'
     role: Chief Instructor
-    description: I'm Reese Armstrong an instructor here who loves helping people with technology, *NIX, and other technologies. I even helped make this website! 
+    description: I'm Reese Armstrong an instructor here who loves helping people with technology, *NIX, and other technologies. I even helped make this website!
     youtube: UCzXRd1MPx__6JjHAeP_9AIA
     github: reesericci
 
@@ -49,30 +49,32 @@ dates:
     title: Customizing Discord
     info: We used BandagedBD to customize discord with awesome themes and plugins.
     completed: true
-  
+
   - image: https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ
     alt: Web Development
     title: Front-end Web Development
     info: We learned the basics of Web Development with HTML, CSS, and Javascript
     completed: true
-    
+
   - image: https://www.autoauto.ai/wp/wp-content/uploads/2020/05/4386785.jpg
     alt: Self Driving Minuture Car Programming
     title:  Self Driving Minuture Car Programming
     info: Students use Auto-Auto AI cars to learn python.
     completed: true
-  
+
   - image: https://cdn.instructables.com/FOF/WVU6/JN3HXMRV/FOFWVU6JN3HXMRV.LARGE.jpg?auto=webp&frame=1&width=700&fit=bounds
     alt: Otto Photo
     title: Otto Coding
-    info: Programing 3D printed robots (complete). 
+    info: Programing 3D printed robots (complete).
     completed: true
-  
-  
+
+
 # Navigation
 nav:
 - name: Home
   link: /
+- name: About CoopGroup
+  link: /aboutcoopgroup
 - name: Support Us
   link: /support-us
 - name: Our Team
