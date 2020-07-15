@@ -1,7 +1,7 @@
 # Site
 name: "CoopGroup Robotics"
 title: "CoopGroup"
-description: "CoopGroup is a free coding club based in ATX. For kids, by kids."
+description: "CoopGroup is a free coding club based in ATX."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl:
@@ -68,7 +68,9 @@ dates:
     info: Programing 3D printed robots (complete).
     completed: true
 
-
+gallery:
+  - image: https://lh4.googleusercontent.com/JOVZuriIOBigR2YlrncTiV84WTAvrPo-LAF3RG1yXjhFzaJAYfBM10VbHcyQcX_ji-NRYcHatlRYjg3oBu8csEfDbGH2ikDPwkPICKKNTeFheQNQEd0=w1175
+  - alt: auto auto course
 # Navigation
 nav:
 - name: Home
