@@ -4,17 +4,30 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, height=device-height, initial-scale=.86, maximum-scale=3, minimum-scale=.86, user-scalable=yes, shrink-to-fit=yes">
 
-<link rel="icon" href="{{ site.baseurl }}/assets/images/logo.png">
+<link rel="icon" href="/assets/images/logo.png">
 
-<title>{{site.name}} - {{ page.title }}</title>
+<title>CoopGroup Robotics - 404</title>
 
-{% seo %}
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>404 | CoopGroup</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="404" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="CoopGroup is a free coding club based in ATX." />
+<meta property="og:description" content="CoopGroup is a free coding club based in ATX." />
+<link rel="canonical" href="http://localhost:4000/404.html" />
+<meta property="og:url" content="http://localhost:4000/404.html" />
+<meta property="og:site_name" content="CoopGroup" />
+<script type="application/ld+json">
+{"description":"CoopGroup is a free coding club based in ATX.","url":"http://localhost:4000/404.html","@type":"WebPage","headline":"404","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"}},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
     
-<link href="{{ site.baseurl }}/assets/css/prism.css" rel="stylesheet">
+<link href="/assets/css/prism.css" rel="stylesheet">
 
-<link href="{{ site.baseurl }}/assets/css/theme.css" rel="stylesheet">
+<link href="/assets/css/theme.css" rel="stylesheet">
 
-<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+<script src="/assets/js/jquery.min.js"></script>
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
@@ -22,19 +35,9 @@
 
 </head>
 
-{% if jekyll.environment == 'production' %}
-<!-- change your GA id in _config.yml -->
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-ga('create', '{{site.google_analytics}}', 'auto');
-ga('send', 'pageview');
-</script>
-{% endif %}
 
-{% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
+
+
 <body>
 
 
@@ -50,9 +53,19 @@ ga('send', 'pageview');
 <nav id="menu">
     <ul>
         <h3>Navigation</h3>
-        {% for item in site.nav %}
-        <li><a href="{{item.link}}" {% if page.url == item.link %}style="color: #133DFF;"{% endif %}>{{item.name}}</a></li>
-        {% endfor %}      
+        
+        <li><a href="/" >Home</a></li>
+        
+        <li><a href="/aboutcoopgroup" >About CoopGroup</a></li>
+        
+        <li><a href="/support-us" >Support Us</a></li>
+        
+        <li><a href="/our-team" >Our Team</a></li>
+        
+        <li><a href="/sign-up" >Sign Up</a></li>
+        
+        <li><a href="/dates" >Dates</a></li>
+              
     </ul>   
 </nav>
 
@@ -60,44 +73,50 @@ ga('send', 'pageview');
 <!-- End Sidebar Navigation
 ================================================== -->
 
-<div class="site-content {% if page.url == '/' %} firstpage {% endif %}">
+<div class="site-content ">
 
 <div class="container">
 
     <!-- Site Logo/Name
     ================================================== -->
 
-    <h1><div class="navbar-brand"><img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}"></div> {{site.title}} </h1>
+    <h1><div class="navbar-brand"><img src="/assets/images/logo.png" alt="CoopGroup Robotics"></div> CoopGroup </h1>
 
     <!-- Site Tag
     ================================================== -->
-    {% if page.url == '/' %}
-        <p class="sitetag">
-            {{ site.description }}
-        </p>
-    {% endif %}
+    
 
    
     <!-- Content
     ================================================== -->
     <div class="main-content">
-        {{ content }}
+        <style>
+    .newsletter, .footer {
+        display:none;
+    }
+</style>
+<div class="text-center">
+<h1 class="mt-5"><span class="badge badge-dark font-weight-normal">404</span></h1>
+<h1 class="display-1 mt-4 mb-4"> Page not found!</h1>
+<p>Please use the search bar from the bottom left or visit our <a href="/">homepage</a>!</p>
+</div>
+
     </div>
 
-    {% if site.mailchimp-list %}
+    
 
     <!-- Newsletter
     ================================================== -->
     <div class="newsletter text-center">
         <span class="h4">&nbsp; Never miss out on an <b>awesome</b> CoopGroup, subscribe to our email list!</span>
-        <form action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
+        <form action="dced7714debf2e05cca0e3abb&id=165be60432" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
             <div class="mc-field-group d-inline-flex">
             <input type="email" placeholder="Your e-mail" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on" required>
             <input type="submit" value="Subscribe" name="subscribe" class="heart">
             </div>
         </form>
     </div>
-    {% endif %}
+    
 
 
 </div>
@@ -110,7 +129,7 @@ ga('send', 'pageview');
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-12 text-center text-lg-left">
-                Copyright © {{ site.time | date: "%Y" }} {{ site.name }}
+                Copyright © 2020 CoopGroup Robotics
             </div>
             <div class="col-md-6 col-sm-12 text-center text-lg-right">
                 <a target="_blank" href="https://www.wowthemes.net/memoirs-free-jekyll-theme/">Memoirs Jekyll Theme</a> by WowThemes.net
@@ -128,17 +147,15 @@ ga('send', 'pageview');
 <!-- Scripts (if you need bootstrap.js, please add it yourself. I didn't use it for performance reasons, it was not needed in this theme)
 ================================================== -->
 
-<script src="{{ site.baseurl }}/assets/js/prism.js"></script>
+<script src="/assets/js/prism.js"></script>
 
-<script src="{{ site.baseurl }}/assets/js/theme.js"></script>
+<script src="/assets/js/theme.js"></script>
 
-{% if site.lazyimages == "enabled" %}
-<script src="{{ site.baseurl }}/assets/js/lazyload.js"></script>
-{% endif %}
 
-{% if page.layout == 'post' %}
-<script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script>
-{% endif %}
+<script src="/assets/js/lazyload.js"></script>
+
+
+
 
 </body>
 </html>
