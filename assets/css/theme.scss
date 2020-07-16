@@ -10,7 +10,7 @@ $dark:    $black;
 $enable-rounded: true;
 $card-height: 100%;
 $primary-font: 'mononoki', monospace;
-$secondary-font: 'Anonymous Pro', monospace;
+$secondary-font: 'Poppins', sans-serif;
 
 @import "bootstrap/functions";
 @import 'bootstrap/variables';
@@ -18,7 +18,7 @@ $secondary-font: 'Anonymous Pro', monospace;
 @import 'bootstrap/bootstrap';
 @import 'stars';
 @import '../fonts/mononoki.css';
-@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 // general
 @-ms-viewport{
