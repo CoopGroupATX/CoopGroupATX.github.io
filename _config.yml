@@ -70,7 +70,7 @@ dates:
 
 # Gallery
 gallery: 
-  - image: '/assets/images/gallery/auto-auto.png'
+  - image: '/assets/images/gallery/auto-auto.jpg'
     alt: 'AutoAuto Course Pictures'
 
 # Navigation
