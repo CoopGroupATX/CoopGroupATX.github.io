@@ -1,0 +1,24 @@
+---
+layout: page
+title: Support Us
+permalink: /support-us-cards
+comments: false
+---
+<div class="row">
+{% for item in site.support-us %}
+<div class="col-md-6" style="margin-bottom: 2rem;">
+  <div class="card h-100" style="width: 18rem;">
+	  <center>
+	  <a class="card-img-top" href="{{item.baseurl}}/{{item.url}}">
+		<i style="margin-top: 1rem; margin-bottom: 1rem;" class="{{item.icon-type}} fa-4x fa-{{item.icon}}"></i></a>
+	  </center>
+  <div class="card-body">
+     <b><h5 class="card-title">{{item.title}}</h5></b>    
+     <p class="card-text">{{item.description}}</p>
+     <a href="{{item.baseurl}}/{{item.id}}"><button type="button" class="btn btn-md btn-outline-primary">Go there!</button></a>
+  </div>
+  </div>
+</div>
+{% endfor %}
+</div>
+ 
