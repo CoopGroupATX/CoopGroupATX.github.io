@@ -68,9 +68,11 @@ dates:
     info: Programing 3D printed robots (complete).
     completed: true
 
-gallery:
-  - image: https://lh4.googleusercontent.com/JOVZuriIOBigR2YlrncTiV84WTAvrPo-LAF3RG1yXjhFzaJAYfBM10VbHcyQcX_ji-NRYcHatlRYjg3oBu8csEfDbGH2ikDPwkPICKKNTeFheQNQEd0=w1175
-  - alt: auto auto course
+# Gallery
+gallery: 
+  - image: '/assets/gallery/auto-auto.png'
+    alt: 'AutoAuto Course Pictures'
+
 # Navigation
 nav:
 - name: Home
