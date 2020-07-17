@@ -2,7 +2,7 @@
 
 This is the repository that contains all of the code we used to make our website. We used Jekyll to build it, and GitHub to host it.
 
-There will be push updates from this repo sent to the #github channel in our discord. (go join at [coopgroup.org](https://coopgroup.org/))
+There will be push updates from this repo sent to the #github channel in our discord. (go join at [coopgroup.org](https://coopgroup.org))
 ## Files
 `_config.yml` - general configuration file
 
