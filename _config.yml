@@ -5,7 +5,7 @@ description: "CoopGroup is a free coding club based in ATX."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl:
-mailchimp-list: 'dced7714debf2e05cca0e3abb&id=165be60432'
+mailchimp-list: 'https://coopgroup.us19.list-manage.com/subscribe/post?u=dced7714debf2e05cca0e3abb&amp;id=165be60432'
 include: ["_pages"]
 permalink: /:title/
 
