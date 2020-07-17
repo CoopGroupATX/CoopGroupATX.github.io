@@ -49,14 +49,14 @@ jQuery(document).ready(function($){
  });   
 
 // deferred style loading
-var loadDeferredStyles = function () {
-	var addStylesNode = document.getElementById("deferred-styles");
-	var replacement = document.createElement("div");
+let loadDeferredStyles = function () {
+	let addStylesNode = document.getElementById("deferred-styles");
+	let replacement = document.createElement("div");
 	replacement.innerHTML = addStylesNode.textContent;
 	document.body.appendChild(replacement);
 	addStylesNode.parentElement.removeChild(addStylesNode);
 };
-var raf = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
+let raf = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
 	window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
 if (raf) raf(function () {
 	window.setTimeout(loadDeferredStyles, 0);
@@ -130,11 +130,11 @@ return 'ontouchstart' in document.documentElement
 
 if (hasTouch()) { 
 	try {
-		for (var si in document.styleSheets) {
-			var styleSheet = document.styleSheets[si];
+		for (let si in document.styleSheets) {
+			let styleSheet = document.styleSheets[si];
 			if (!styleSheet.rules) continue;
 
-			for (var ri = styleSheet.rules.length - 1; ri >= 0; ri--) {
+			for (let ri = styleSheet.rules.length - 1; ri >= 0; ri--) {
 				if (!styleSheet.rules[ri].selectorText) continue;
 
 				if (styleSheet.rules[ri].selectorText.match(':hover')) {
@@ -184,18 +184,18 @@ $(document).ready(function(){
 });
 
 // Social Icons
-var selected = null;
+let selected = null;
 $(".icon").click(function() {
-  var tempSelected = null;
+  let tempSelected = null;
   if (selected != null) {
     tempSelected = selected;
   }
   selected = $(this);
   $(this).find(".background_circle").css({ display: "block", opacity: "1" });
 
-  var color = $(this).find(".background_circle").css("backgroundColor");
+  let color = $(this).find(".background_circle").css("backgroundColor");
   console.log(color);
-  var tl = new TimelineMax();
+  let tl = new TimelineMax();
   tl
     .to($(this).find(".background_circle"), 3, {
       scale: 100,
@@ -243,7 +243,7 @@ function nav() {
   }
 }
 // Typewriter
- var TxtType = function(el, toRotate, period) {
+ let TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
         this.el = el;
         this.loopNum = 0;
@@ -254,8 +254,8 @@ function nav() {
     };
 
     TxtType.prototype.tick = function() {
-        var i = this.loopNum % this.toRotate.length;
-        var fullTxt = this.toRotate[i];
+        let i = this.loopNum % this.toRotate.length;
+        let fullTxt = this.toRotate[i];
 
         if (this.isDeleting) {
         this.txt = fullTxt.substring(0, this.txt.length - 1);
@@ -265,8 +265,8 @@ function nav() {
 
         this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
 
-        var that = this;
-        var delta = 200 - Math.random() * 100;
+        let that = this;
+        let delta = 200 - Math.random() * 100;
 
         if (this.isDeleting) { delta /= 2; }
 
@@ -282,10 +282,10 @@ function nav() {
         that.tick();
         }, delta);
     };
- var elements = document.getElementsByClassName('typewrite');
-        for (var i=0; i<elements.length; i++) {
-            var toRotate = elements[i].getAttribute('data-type');
-            var period = elements[i].getAttribute('data-period');
+ let elements = document.getElementsByClassName('typewrite');
+        for (let i=0; i<elements.length; i++) {
+            let toRotate = elements[i].getAttribute('data-type');
+            let period = elements[i].getAttribute('data-period');
             if (toRotate) {
               new TxtType(elements[i], JSON.parse(toRotate), period);
             }

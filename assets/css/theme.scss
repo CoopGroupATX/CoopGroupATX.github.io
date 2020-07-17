@@ -78,6 +78,16 @@ h1 {
     }
     font-family: $primary-font;
 }
+.typewrite > .wrap {
+  --keyframe-color: $blue;
+   border-right: 0.08em solid $blue;
+   animation:
+     blink-caret .5s step-end infinite;
+ }
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: var(--keyframe-color); }
+}
 .bigradius {
     border-radius: 40px;
 }
