@@ -228,3 +228,17 @@ $(".icon").click(function() {
     );
   }
 });
+
+// Hamburger
+window.onload = function() {
+  document.getElementById("hamburger").addEventListener('click', nav);
+}
+function nav() {
+  if (!document.getElementById('hamburger').checked) {
+    document.getElementById("ham").style.height = "100%";
+    document.body.classList.add("open");
+  } else {
+    document.getElementById("ham").style.height = "0%";
+    document.body.classList.remove("open");
+  }
+}
