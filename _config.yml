@@ -22,9 +22,6 @@ social-media:
     handle: ZGxA46u
 
 # Support Us
-patreon: coopgroup
-teespring: coopgroup-2
-
 support-us:
   - title: Patreon
     description: Become a patron and get cool perks when you come to CoopGroup!
@@ -37,7 +34,7 @@ support-us:
     icon: tshirt
     icon-type: fas
     baseurl: https://teespring.com/stores
-    id: coopgroup-2
+    id: coopgroup
 # Authors
 authors:
   - name: Cooper Smallwood
