@@ -35,11 +35,11 @@ support-us:
     icon-type: fas
     baseurl: https://teespring.com/stores
     id: coopgroup
-# Authors
-authors:
+# Our team
+team:
   - name: Cooper Smallwood
     avatar: 'assets/images/cooper.jpg'
-    role: Founder
+    role: Founder & President
     youtube: UCQ_jWBRns1bQWy0VH_zmrlA
     github: CooperSma
     email: cooper.smallwood0@gmail.com
@@ -47,7 +47,7 @@ authors:
 
   - name: Reese Armstrong
     avatar: 'assets/images/reese.jpg'
-    role: Chief Instructor
+    role: Vice President
     description: I'm Reese Armstrong an instructor here who loves helping people with technology, *NIX, and other technologies. I even helped make this website!
     youtube: UCzXRd1MPx__6JjHAeP_9AIA
     github: reesericci
