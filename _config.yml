@@ -35,20 +35,20 @@ support-us:
     icon-type: fas
     baseurl: https://teespring.com/stores
     id: coopgroup
-# Authors
-authors:
+# Our team
+team:
   - name: Cooper Smallwood
     avatar: 'assets/images/cooper.jpg'
-    role: Founder
+    title: Founder & President
     youtube: UCQ_jWBRns1bQWy0VH_zmrlA
     github: CooperSma
     email: cooper.smallwood0@gmail.com
-    description: Hi my name is Cooper. Ever since I was three, I loved coding and robotics. One day, I had an idea to create a robotics club and this is the result.
+    bio: Hi my name is Cooper. Ever since I was three, I loved coding and robotics. One day, I had an idea to create a robotics club and this is the result.
 
   - name: Reese Armstrong
     avatar: 'assets/images/reese.jpg'
-    role: Chief Instructor
-    description: I'm Reese Armstrong an instructor here who loves helping people with technology, *NIX, and other technologies. I even helped make this website!
+    title: Vice President
+    bio: I'm Reese Armstrong an instructor here who loves helping people with technology, *NIX, and other technologies. I even helped make this website!
     youtube: UCzXRd1MPx__6JjHAeP_9AIA
     github: reesericci
 
