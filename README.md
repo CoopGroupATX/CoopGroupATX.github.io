@@ -29,7 +29,7 @@ There will be push updates from this repo sent to the #github channel in our dis
 
 `/_includes` - reuseable components
 
-`/_sass` - don't touch scss (unless you know what you're doing, unlike us :) )
+`/_sass` - don't touch sass (unless you know what you're doing, unlike us :) )
 
 
 ##### We used the [Memoirs Jekyll Theme](https://github.com/wowthemesnet/memoirs-jekyll-theme) by @wowthemesnet on github. Very nice theme, easy to work with.
