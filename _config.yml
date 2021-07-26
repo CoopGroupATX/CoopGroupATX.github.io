@@ -59,7 +59,7 @@ team:
 # Dates
 dates:
   - image: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/768px-Python-logo-notext.svg.png
-    alt: Customizing Discord
+    alt: Customizing Discord (10/10/2021)
     title: Python Fundamentals
     info: We learn python basics.
     completed: false
