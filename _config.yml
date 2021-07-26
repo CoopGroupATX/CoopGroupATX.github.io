@@ -58,6 +58,11 @@ team:
     title: Female Outreach
 # Dates
 dates:
+  - image: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/768px-Python-logo-notext.svg.png
+    alt: Customizing Discord
+    title: Python Fundamentals
+    info: We learn python basics.
+    completed: false
   - image: https://lh3.googleusercontent.com/_4zBNFjA8S9yjNB_ONwqBvxTvyXYdC7Nh1jYZ2x6YEcldBr2fyijdjM2J5EoVdTpnkA
     alt: Customizing Discord
     title: Customizing Discord
